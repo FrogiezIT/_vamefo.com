@@ -1,0 +1,66 @@
+:root {
+  /* Pharma Biotech Department */
+  --pharma-black: #0a0e27;
+  --pharma-white: #ffffff;
+  --pharma-blue: #0066ff;
+  --pharma-accent: #d4af37;
+  
+  /* Health & Wellness Department */
+  --health-green: #10b981;
+  --health-light-green: #d1fae5;
+  --health-white: #ffffff;
+  --health-accent: #d4af37;
+  
+  /* Public Institution Department */
+  --public-white: #ffffff;
+  --public-dark-blue: #1e3a8a;
+  --public-light-blue: #dbeafe;
+  --public-accent: #d4af37;
+  
+  /* Energy & Engineering Department */
+  --energy-taupe: #8b7355;
+  --energy-beige: #d4c5b9;
+  --energy-brown: #6b5344;
+  --energy-accent: #d4af37;
+  
+  /* Global Colors */
+  --vamefo-gold: #d4af37;
+  --vamefo-gold-dark: #b8941f;
+  
+  /* Glassmorphism */
+  --glass-white-10: rgba(255, 255, 255, 0.1);
+  --glass-white-15: rgba(255, 255, 255, 0.15);
+  --glass-white-20: rgba(255, 255, 255, 0.2);
+  --glass-white-30: rgba(255, 255, 255, 0.3);
+  --glass-black-10: rgba(0, 0, 0, 0.1);
+  --glass-black-20: rgba(0, 0, 0, 0.2);
+  --glass-black-30: rgba(0, 0, 0, 0.3);
+  
+  /* Gradients */
+  --pharma-gradient: linear-gradient(135deg, #0a0e27 0%, #0066ff 100%);
+  --health-gradient: linear-gradient(135deg, #10b981 0%, #d1fae5 100%);
+  --public-gradient: linear-gradient(135deg, #1e3a8a 0%, #dbeafe 100%);
+  --energy-gradient: linear-gradient(135deg, #6b5344 0%, #d4c5b9 100%);
+  --gold-gradient: linear-gradient(135deg, #d4af37 0%, #f4d57f 100%);
+}
+
+/* Department-specific background gradients */
+.bg-pharma-gradient {
+  background: var(--pharma-gradient);
+}
+
+.bg-health-gradient {
+  background: var(--health-gradient);
+}
+
+.bg-public-gradient {
+  background: var(--public-gradient);
+}
+
+.bg-energy-gradient {
+  background: var(--energy-gradient);
+}
+
+.bg-gold-gradient {
+  background: var(--gold-gradient);
+}

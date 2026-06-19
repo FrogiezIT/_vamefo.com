@@ -1,0 +1,25 @@
+:root {
+  --public-primary: #097392;
+  --public-secondary: #83B4B3;
+  --public-accent: #FFF0CE;
+  --public-highlight: #D55534;
+  --public-neutral: #383838;
+}
+
+.bg-public-primary { background-color: var(--public-primary); }
+.bg-public-secondary { background-color: var(--public-secondary); }
+.bg-public-accent { background-color: var(--public-accent); }
+.bg-public-highlight { background-color: var(--public-highlight); }
+.bg-public-neutral { background-color: var(--public-neutral); }
+
+.text-public-primary { color: var(--public-primary); }
+.text-public-secondary { color: var(--public-secondary); }
+.text-public-accent { color: var(--public-accent); }
+.text-public-highlight { color: var(--public-highlight); }
+.text-public-neutral { color: var(--public-neutral); }
+
+.border-public-primary { border-color: var(--public-primary); }
+.border-public-secondary { border-color: var(--public-secondary); }
+.border-public-accent { border-color: var(--public-accent); }
+.border-public-highlight { border-color: var(--public-highlight); }
+.border-public-neutral { border-color: var(--public-neutral); }
